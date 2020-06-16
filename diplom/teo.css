@@ -1,0 +1,143 @@
+body {
+       background: white;
+}
+h3{
+  text-align: center;
+}
+.tema{
+  text-align: center;
+  text-decoration: underline;
+  font-size: 20pt;
+}
+.abz{
+  text-indent: 30px;
+}
+p{
+  color: #000;
+  font-size: 14pt;
+  font-family: gautami;
+  text-align: justify;
+  margin-right: 300px;
+  margin-left: 300px;
+   }
+.pss{
+  text-decoration: none;
+  color: black;
+}
+.ssylki{
+  font-size: 14px;
+  font-family: Courier;
+  font-size: 14pt;
+}
+.istochnik{
+  font-family: Courier;
+  font-size: 15pt;
+  text-align: justify;
+}
+a {
+  text-decoration: none;
+}
+footer{
+  width: 1300px;
+  clear: both;
+  margin-left: 20px;
+  margin-right: 20px;
+  background: rgba(34,34,34,.2);
+}
+.vvr{
+  text-decoration: none;
+  width:100px;
+  border:2px solid #ccc;
+  background:#f7f7f7;
+  text-align:center;
+  padding:10px;
+  position:fixed;
+  bottom:50px;
+  right:50px;
+  cursor:pointer;
+  color:#333;
+  font-family:verdana;
+  font-size:12px;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -khtml-border-radius: 5px;
+}
+.menu{
+  position: fixed;
+  top: 250px;
+}
+ul{
+  text-decoration: none;
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+header {
+  background: white;
+  text-align: center;
+}
+header a {
+  display: inline-block;
+  text-decoration: none;
+  outline: none;  
+  /*transition: .3s ease-in-out;*/
+}
+.logo {
+  color: #D5B45B;
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5em;
+  padding: 20px 0;
+}
+nav {
+  display: inline-block;
+    margin-left: 300px;
+  margin-right: 300px;
+}
+
+.topmenu:after {
+  content: "";
+  display: inline-block;
+  clear: both;
+}
+.topmenu > li {
+  width: 25%;
+  height: 100px;
+  float: left;
+  position: relative;
+  font-family: 'Open Sans', sans-serif;
+  background: rgba(34,34,34,.2);
+}
+.topmenu > li > a {
+  text-transform: uppercase;
+  font-size: 18px;
+    font-weight: bold;
+    color: #404040;
+  padding: 30px 30px;
+}
+.topmenu li a:hover {color: #D5B45B;}
+.submenu {
+    background: #273037;
+    position: absolute;
+    left: 300px;
+    right: 300px;
+    top: 100%;
+    
+    opacity: 0;
+    transform: scaleY(0);
+    transform-origin :0 0;
+    transition: .5s ease-in-out;
+}
+/*.submenu a {
+    color: white;
+    text-align: left;
+    padding: 12px 15px;
+    font-size: 13px;
+    border-bottom: 1px solid rgba(255,255,255,.1);
+}*/
+.submenu li:last-child a {border-bottom: none;}
+.topmenu > li:hover .submenu {
+  opacity: 1;
+    transform: scaleY(1);
+}

@@ -1,0 +1,125 @@
+body{
+	background: white;
+}
+h2{
+  position: absolute;
+  right: 310px;
+  top: 250px;
+  color: white;
+  size: 16pt;
+  border: 2px;
+  border-color: yellow; 
+}
+.texx{
+  position: absolute;
+  left: 250px;
+  top: 300px;
+  color: white;
+  size: 16pt;
+}
+.izob{
+  width: 1000px;
+  height: auto;
+  margin-left: 170px;
+  margin-top: 5px;
+}
+
+p{
+  color: #000;
+  font-size: 14pt;
+  font-family: gautami;
+  text-align: justify;
+  margin-right: 300px;
+  margin-left: 300px;
+   }
+.menu{
+  position: fixed;
+  top: 200px;
+}
+ul{
+  text-decoration: none;
+  list-style-type: none;
+}
+.pss{
+  text-decoration: none;
+  color: black;
+}
+.ssylki{
+  font-size: 14px;
+  font-family: Courier;
+  font-size: 14pt;
+}
+.istochnik{
+  font-family: Courier;
+  font-size: 15pt;
+  text-align: justify;
+}
+a {
+  text-decoration: none;
+}
+footer{
+  width: 1300px;
+  clear: both;
+  margin-left: 20px;
+  margin-right: 20px;
+  background: rgba(34,34,34,.2);
+}
+
+header {
+  text-align: center;
+}
+header a {
+  display: inline-block;
+  text-decoration: none;
+  outline: none;  
+}
+.logo {
+  color: #D5B45B;
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5em;
+  padding: 20px 0;
+}
+nav {
+  display: inline-block;
+  	margin-left: 300px;
+	margin-right: 300px;
+}
+
+/*.topmenu:after {
+  content: "";
+  display: inline-block;
+  clear: both;
+}*/
+.topmenu > li {
+  width: 25%;
+  height: 100px;
+  float: left;
+  position: relative;
+  font-family: 'Open Sans', sans-serif;
+  background: rgba(34,34,34,.2);
+}
+.topmenu > li > a {
+  text-transform: uppercase;
+  font-size: 18px;
+    font-weight: bold;
+    color: #404040;
+  padding: 30px 30px;
+}
+.topmenu li a:hover {color: #D5B45B;}
+.submenu {
+    background: #273037;
+    position: absolute;
+    left: 300px;
+    right: 300px;
+    top: 100%;
+    
+    opacity: 0;
+    transform: scaleY(0);
+    transform-origin :0 0;
+    transition: .5s ease-in-out;
+}
+.submenu li:last-child a {border-bottom: none;}
+.topmenu > li:hover .submenu {
+  opacity: 1;
+    transform: scaleY(1);
+}
